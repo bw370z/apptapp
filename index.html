@@ -44,37 +44,46 @@
         </nav>
         <!-- Masthead-->
         <!-- Portfolio Section-->
+        
         <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <!-- Icon Divider-->
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/AppIcon_Cryptogram.jpg" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/AppIcon_Solitaire.jpg" alt="..." />
-                        </div>
-                    </div>
+            
+            <div class="my-grid">
+            
+                <!-- app 1 -->
+                <div class="my-card">
+                    <img src="assets/img/portfolio/AppIcon_Cryptogram.jpg">
+                    <button class="btn btn-primary" onclick="window.location.href='https://apps.apple.com/us/app/cryptogram-word-puzzle-game/id6740747864'"> 
+                        Download
+                    </button>
                 </div>
+                
+                <!-- app 2 -->
+                <div class="my-card">
+                    <img src="assets/img/portfolio/AppIcon_Solitaire.jpg">
+                    <button class="btn btn-primary" onclick="window.location.href='https://apps.apple.com/us/app/solitaire-associations-master/id6756551301'"> 
+                        Download
+                    </button>
+                </div>
+            
             </div>
+            
         </section>
         <!-- About Section-->
         <!-- Contact Section-->
         <!-- Footer-->
         <footer class="footer text-center" style="background-color: #000000">
+            
+            <div class="my-button-container">
+                
+                <button class="my-label-button" onclick="window.location.href='termsofservice.html'"> 
+                    Terms of Service
+                </button>
+                <button class="my-label-button" onclick="window.location.href='privacypolicy.html'"> 
+                    Privacy Policy
+                </button>
+            
+            </div>
+            
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
@@ -91,7 +100,7 @@
                     ->
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">contact</h4>
+                        <h4 class="text-uppercase mb-2">contact</h4>
                         
                             <a href="mailto:support@apptappstudios.com" class="my-link-label">support@apptappstudios.com</a>
                         
