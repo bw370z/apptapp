@@ -964,6 +964,6 @@ adyoulike.com, a2226c27fc2a6773f6a2b365e013513a, RESELLER
 contextweb.com, 561913, RESELLER, 89ff185a4c4e857c
 video.unrulymedia.com, 169764768, RESELLER
 
-# GOOGLE ADMOB April10,2026
+# GOOGLE ADMOB April12,2026
 
-google.com, pub-9714548714913493, DIRECT, f08c47fec0942fa0
+google.com, pub-1531684539415820, DIRECT, f08c47fec0942fa0
